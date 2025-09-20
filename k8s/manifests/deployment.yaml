@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: uttamkumar03/go-web-app:v1
+        image: uttamkumar04/go-web-app:17879190906
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         resources:
